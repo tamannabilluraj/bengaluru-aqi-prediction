@@ -14,13 +14,13 @@ End-to-end analysis and classification of Bengaluru's air quality using 5 years 
 - Feature importance analysis to interpret model decisions
 
 ## Methodology
-- Data Collection — Kaggle Air Quality Data in India dataset, filtered to Bengaluru (2015–2020)
-- Data Cleaning — Missing value imputation using column medians, dropping rows with no AQI record
-- Exploratory Data Analysis — Trend analysis, seasonal breakdown, pollutant correlation heatmaps
-- Feature Engineering — Extracted month, year, day of week, and season from date column
-- Modeling — Trained and compared three classifiers on an 80/20 train-test split
-- Evaluation — Classification report, confusion matrix, and feature importance visualization
-- Interpretation — Written analysis of model strengths, failure cases, and real-world implications
+- Data Collection: Kaggle Air Quality Data in India dataset, filtered to Bengaluru (2015–2020)
+- Data Cleaning: Missing value imputation using column medians, dropping rows with no AQI record
+- Exploratory Data Analysis: Trend analysis, seasonal breakdown, pollutant correlation heatmaps
+- Feature Engineering: Extracted month, year, day of week, and season from date column
+- Modeling: Trained and compared three classifiers on an 80/20 train-test split
+- Evaluation: Classification report, confusion matrix, and feature importance visualization
+- Interpretation: Written analysis of model strengths, failure cases, and real-world implications
 
 ## Tech Stack
 - Language: Python
