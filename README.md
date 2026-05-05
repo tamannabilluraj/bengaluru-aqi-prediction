@@ -24,6 +24,7 @@ End-to-end analysis and classification of Bengaluru's air quality using 5 years 
 
 ## Tech Stack
 - Language: Python
+- Environment: Jupyter Notebook
 - Data Handling: Pandas, NumPy
 - Visualization: Matplotlib, Seaborn
 - Machine Learning: Scikit-learn, CatBoost
