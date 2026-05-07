@@ -1,5 +1,5 @@
 # bengaluru-aqi-prediction
-A machine learning web app that predicts the Air Quality Index (AQI) for Bengaluru, India. Built with CatBoost and deployed using Streamlit.
+A machine learning web app that predicts the Air Quality Index (AQI) for Bengaluru, India. Built with CatBoost and Streamlit.
 
 ![Banner](image/blr_aqi.png)
 
