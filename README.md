@@ -42,3 +42,9 @@ Prediction
 
 Interactive Map
 ![Map](image/map_ui.png)
+
+## Run Locally
+- Clone the repo
+- install `requirements.txt`
+- run notebooks 01→04
+- then `streamlit run app.py`
