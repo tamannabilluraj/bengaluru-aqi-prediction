@@ -23,6 +23,12 @@ The goal is to make AQI prediction accessible to everyday users with no technica
 | CatBoost | 5.48 | 0.87 |
 
 ## Screenshots
+
+## App UI
 ![App UI](image/app_ui.png)
+
+## Prediction 
 ![Prediction](image/prediction_ui.png)
+
+## Interactive Map
 ![Map](image/map_ui.png)
