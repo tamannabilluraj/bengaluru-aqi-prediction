@@ -4,7 +4,7 @@ A machine learning web app that predicts the Air Quality Index (AQI) for Bengalu
 ![Banner](image/blr_aqi.png)
 
 ## Project Overview
-Air pollution is a critical public health issue in Bengaluru, one of India's fastest-growing cities. This project uses 5 years of historical pollution data (2015–2020) to build a machine learning model that predicts the daily AQI for different areas of the city.
+Air pollution is a critical public health issue in Bengaluru, one of India's fastest-growing cities. This project uses 5 years of historical pollution data to build a machine learning model that predicts the daily AQI for different areas of the city.
 The goal is to make AQI prediction accessible to everyday users with no technical knowledge required. Users simply select a date and their area, and the app predicts the expected air quality along with health advice.
 
 ## What it does
@@ -23,7 +23,7 @@ The goal is to make AQI prediction accessible to everyday users with no technica
 - Web App: Streamlit, streamlit-folium
 
 ## Dataset
-[Air Quality Data in India (2015–2020)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) - Kaggle
+[Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) - Kaggle
 Filtered to Bengaluru → 1,881 rows after cleaning and feature engineering
   
 ## Model Performance
