@@ -1,30 +1,25 @@
 # bengaluru-aqi-prediction
-End-to-end analysis and classification of Bengaluru's air quality using 5 years of pollutant data. Includes EDA, feature engineering, and a comparison of Logistic Regression, Random Forest, and CatBoost models to predict AQI categories.
+A machine learning web app that predicts the Air Quality Index (AQI) for Bengaluru, India. Built with CatBoost and deployed using Streamlit.
 
 ![Banner](image/blr_aqi.png)
 
-## Features
-- City-level filtering and cleaning of real-world CPCB pollutant data
-- Handling of missing values with documented reasoning
-- Exploratory data analysis across 5 years of daily AQI readings
-- Seasonal and temporal feature engineering (month, season, day of week)
-- Correlation analysis to identify key pollutant drivers of AQI
-- Multi-model classification with Logistic Regression, Random Forest, and CatBoost
-- Model evaluation using accuracy, confusion matrix, and classification report
-- Feature importance analysis to interpret model decisions
-
-## Methodology
-- Data Collection: Kaggle Air Quality Data in India dataset, filtered to Bengaluru (2015–2020)
-- Data Cleaning: Missing value imputation using column medians, dropping rows with no AQI record
-- Exploratory Data Analysis: Trend analysis, seasonal breakdown, pollutant correlation heatmaps
-- Feature Engineering: Extracted month, year, day of week, and season from date column
-- Modeling: Trained and compared three classifiers on an 80/20 train-test split
-- Evaluation: Classification report, confusion matrix, and feature importance visualization
-- Interpretation: Written analysis of model strengths, failure cases, and real-world implications
+## Project Overview
+Air pollution is a critical public health issue in Bengaluru, one of India's fastest-growing cities. This project uses 5 years of historical pollution data (2015–2020) to build a machine learning model that predicts the daily AQI for different areas of the city.
+The goal is to make AQI prediction accessible to everyday users with no technical knowledge required. Users simply select a date and their area, and the app predicts the expected air quality along with health advice.
 
 ## Tech Stack
-- Language: Python
-- Environment: Jupyter Notebook
+- Language: Python 3.10+
 - Data Handling: Pandas, NumPy
-- Visualization: Matplotlib, Seaborn
 - Machine Learning: Scikit-learn, CatBoost
+- Visualization: Matplotlib, Seaborn, Folium
+- Web App: Streamlit, streamlit-folium
+  
+## Model Performance
+
+| Model | MAE | R2 |
+| -------- | -------- | -------- |
+| Linear Regression | 6.12 | 0.829 |
+| Random Forest | 5.59 | 0.864 |
+| CatBoost | 5.48 | 0.87 |
+
+## Screenshots
