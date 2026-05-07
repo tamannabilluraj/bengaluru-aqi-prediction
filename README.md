@@ -24,11 +24,11 @@ The goal is to make AQI prediction accessible to everyday users with no technica
 
 ## Screenshots
 
-## App UI
+App UI
 ![App UI](image/app_ui.png)
 
-## Prediction 
+Prediction 
 ![Prediction](image/prediction_ui.png)
 
-## Interactive Map
+Interactive Map
 ![Map](image/map_ui.png)
