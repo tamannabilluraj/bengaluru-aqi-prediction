@@ -12,6 +12,7 @@ The goal is to make AQI prediction accessible to everyday users with no technica
 - User picks a date and area in Bengaluru
 - App predicts AQI using a trained CatBoost model
 - Shows color-coded result, health advice, and an interactive map of monitoring stations
+
 **Note:** Predictions are based on historical monthly averages (2015–2020). Dates within the same month will produce similar AQI values since the model uses that month's average pollution levels as input.
 
 ## Tech Stack
